@@ -15,6 +15,7 @@ body {
 }
 a {
   text-decoration: none;
+  font-size: 1vw;
 }
 
 /* header start  */
@@ -56,8 +57,15 @@ nav {
   font-weight: 400;
   color: #17134a;
 }
-.link a:hover , .link h4:hover{
+.link a:hover,
+.link h4:hover {
   color: #3a30ba;
+}
+.main-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
 }
 .li-dropdown {
   display: flex;
@@ -71,6 +79,9 @@ nav {
   justify-content: center;
   gap: 0.5vw;
   cursor: pointer;
+}
+.dropdown-a i {
+  font-size: 1vw;
 }
 .link-dropdown {
   flex-direction: column;
@@ -105,7 +116,7 @@ nav {
 .active-btn {
   background-color: #3a30ba;
   color: #fff9f3;
-  padding: .8vw 1vw;
+  padding: 0.8vw 1vw;
   border-radius: 5px;
   transition: all 0.3s ease;
   border: 1px solid #fff9f3;
@@ -113,7 +124,7 @@ nav {
 .active-btn:hover {
   background-color: #fff9f3;
   color: #3a30ba;
-  padding: .8vw 1vw;
+  padding: 0.8vw 1vw;
   border-radius: 5px;
   border: 1px solid #3a30ba;
 }
