@@ -128,3 +128,122 @@ nav {
   border-radius: 5px;
   border: 1px solid #3a30ba;
 }
+/* hero section start  */
+.hero {
+  width: 100%;
+  height: 100%;
+  padding: 5vw 8%;
+}
+/* hero container start */
+.hero-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.2vw;
+}
+.hero-cont h1 {
+  font-size: 5vw;
+  font-weight: 600;
+  letter-spacing: -0.3vw;
+  line-height: 5vw;
+  text-align: center;
+  color: #17134a;
+}
+.hero-cont p {
+  font-size: 1.5vw;
+  text-align: center;
+  color: #45426e;
+}
+/* hero list start */
+.hero-list ul {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+.hero-list li {
+  list-style: none;
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+  justify-content: center;
+}
+.hero-list a {
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-decoration: none;
+  color: #45426e;
+}
+.hero-list i {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #3a30ba;
+}
+/* hero button container start  */
+.hero-btn-cont {
+  width: 25vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/images/button-bg_wqfy1ggx.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero-btn {
+  padding: 2vw 0;
+}
+.hero-btn a {
+  font-size: 1.4vw;
+  padding: 1vw 2vw;
+  background-color: #3a30ba;
+  color: #ffffff;
+  border-radius: 0.3vw;
+  font-weight: 500;
+}
+/* hero feature start */
+.hero-feature {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.hero-feature img {
+  object-fit: cover;
+  height: 2.8vw;
+}
+.hero-feature h3 {
+  font-size: 1vw;
+  font-weight: 400;
+  color: #45426e;
+}
+/* hero badges start */
+.hero-badge img {
+  width: 20vw;
+}
+/* hero video container start */
+.hero-vid-cont {
+  background-image: url(https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/61a1f4035bfd7b0011fb92f9/images/cms-bg_2b06w496.svg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: 76vw ;
+  justify-content: center;
+  padding: 3vw 0;
+}
+/* hero video section start */
+.hero-vid-sec {
+  background-color: #d8d8d88c;
+  padding: 1.5vw;
+  border-radius: 2vw;
+  width: fit-content;
+  backdrop-filter: blur(3px);
+  
+}
+.hero-vid-sec iframe {
+  border-radius: 1.2vw;
+}
