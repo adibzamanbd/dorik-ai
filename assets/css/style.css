@@ -231,7 +231,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  background-size: 76vw ;
+  background-size: 76vw;
   justify-content: center;
   padding: 3vw 0;
 }
@@ -242,8 +242,72 @@ nav {
   border-radius: 2vw;
   width: fit-content;
   backdrop-filter: blur(3px);
-  
 }
 .hero-vid-sec iframe {
   border-radius: 1.2vw;
+  width: 60vw;
+  height: 35vw;
+}
+/* main start */
+main {
+  width: 100%;
+  height: 100%;
+  padding: 2vw 8%;
+  position: relative;
+}
+/* review section start  */
+.review {
+  width: 100%;
+  height: 100%;
+}
+/* review container start  */
+.review-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #45426e2f;
+}
+/* review box start */
+.review-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  height: 20vw;
+  padding: 2vw;
+  text-align: center;
+}
+.review-box img {
+  object-fit: cover;
+  width: 4.5vw;
+  height: 4.5vw;
+  border-radius: 100%;
+}
+.review-box p {
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: #45426e;
+}
+.review-span {
+  background-color: #fcf2de;
+  font-weight: 600;
+  color: #17134a;
+}
+.review-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.review-info h3 {
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: #17134a;
+}
+.review-info h4 {
+  font-size: 1vw;
+  font-weight: 400;
+  color: #45426e;
 }
