@@ -884,7 +884,7 @@ main {
   padding: 1vw 2vw;
   font-size: 1.3vw;
   border-radius: 0.3vw;
-  width:34%;
+  width: 34%;
   transition: all 0.3s ease;
 }
 .happy-text a:hover {
@@ -917,9 +917,80 @@ main {
   align-items: center;
   flex-wrap: wrap;
   gap: 1.2vw;
-  row-gap: .5vw;
+  row-gap: 0.5vw;
 }
 /* happy image start */
 .happy-img img {
   width: 6vw;
+}
+/* design section start */
+.design {
+  background-color: #030521;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5vw;
+  padding-bottom: .5vw;
+}
+/* design main container start */
+.design-main-cont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8vw;
+  gap: 5vw;
+}
+.design-main-cont h1 {
+  font-size: 4vw;
+  width: 50%;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 4.5vw;
+}
+/* design container start */
+.design-cont {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  gap: 3vw;
+}
+/* design box start */
+.design-box {
+  width: 40vw;
+  height: 11vw;
+  border: 1px solid #45426e2f;
+  padding: 3vw;
+  background-color: #030521;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.design-box:hover {
+  border: 1px solid #ffffff80;
+  box-shadow: 0px 5px 20px 0px rgba(40, 56, 74, 0.15);
+}
+.design-text h2 {
+  font-size: 1.6vw;
+  font-weight: 500;
+  color: #d1d0db;
+  margin-bottom: 1vw;
+}
+.design-text h2:hover {
+  color: #ffffff;
+}
+.design-text p {
+  font-size: 1.2vw;
+  font-weight: 300;
+  color: #d1d0db;
+  border-bottom: 1px solid #17134a;
+  display: inline;
+  transition: all 0.2s linear;
+}
+.design-text p:hover {
+  border-bottom: 1px solid #3a30ba;
+}
+
+/* design image start */
+.design-img img {
+  width: 100%;
 }
