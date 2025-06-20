@@ -849,3 +849,77 @@ main {
   font-weight: 300;
   color: #17134a;
 }
+/* happy user section start */
+.happy {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5vw;
+}
+/* happy main container start */
+.happy-main-cont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8vw;
+}
+/* happy text strat */
+.happy-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  gap: 1.3vw;
+}
+.happy-text h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  letter-spacing: -0.2vw;
+  line-height: 4.3vw;
+  color: #17134a;
+  margin-bottom: 0.2vw;
+  width: 100%;
+}
+.happy-text a {
+  background-color: #3a30ba;
+  color: #ffffff;
+  padding: 1vw 2vw;
+  font-size: 1.3vw;
+  border-radius: 0.3vw;
+  width:34%;
+  transition: all 0.3s ease;
+}
+.happy-text a:hover {
+  background-color: #17134a;
+}
+
+/* happy image  container  strart */
+.happy-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+/* happy image container text start */
+.happy-cont-text h4 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.happy-cont-text h4 span {
+  color: #de238e;
+}
+/* happy image container image start */
+.happy-cont-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2vw;
+  row-gap: .5vw;
+}
+/* happy image start */
+.happy-img img {
+  width: 6vw;
+}
