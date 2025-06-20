@@ -728,3 +728,124 @@ main {
   font-weight: 300;
   color: #17134a;
 }
+
+/* data section start  */
+.data {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 6vw;
+}
+/* data container start */
+.data-cont {
+  background-color: #eeebfa;
+  padding: 2vw;
+  border-radius: 0.8vw;
+}
+/* data main start */
+.data-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2vw;
+  border-bottom: 1px solid #45426e2f;
+  padding-bottom: 3vw;
+}
+/* data text start  */
+.data-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  padding: 2vw 1vw;
+}
+/* title start */
+.data-text h1 {
+  font-size: 3.5vw;
+  font-weight: 500;
+  letter-spacing: -0.2vw;
+  line-height: 4vw;
+  color: #17134a;
+  margin-bottom: 0.2vw;
+}
+/* paragraph strat */
+.data-text p {
+  font-size: 1.3vw;
+  font-family: "Rubik", sans-serif;
+  color: #45426e;
+}
+/* list start */
+.data-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+  margin-bottom: 2vw;
+}
+.data-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  color: #45426e;
+}
+.data-list i {
+  color: #3a30ba;
+}
+.data-list h4 {
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+/* data button start */
+.data-btn a {
+  background-color: #3a30ba;
+  color: #ffffff;
+  padding: 1vw 2vw;
+  font-size: 1.3vw;
+  border-radius: 0.3vw;
+  margin-top: 5vw;
+}
+/* data image start  */
+.data-img {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+.data-img img {
+  width: 102%;
+}
+/* data info start */
+.data-info {
+  width: 100%;
+  height: 100%;
+  padding: 3vw 0;
+}
+/* data info container start */
+.data-info-cont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 2vw;
+}
+/* data info box start  */
+.data-info-box {
+  width: 100%;
+  padding: 0 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5vw;
+}
+.data-info-box svg {
+  width: 3vw;
+  color: #3a30ba;
+}
+.data-info-box h5 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  color: #17134a;
+}
+.data-info-box p {
+  font-size: 1.2vw;
+  font-weight: 300;
+  color: #17134a;
+}
