@@ -1026,16 +1026,17 @@ main {
   font-size: 1.7vw;
   font-weight: 400;
   color: #45426e;
-    font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 /* feature container start */
 .feature-cont {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4vw;
+  margin-bottom: 8vw;
 }
 /* features box start */
-.feature-box{
+.feature-box {
   width: 100%;
   height: 100%;
   background-color: #ffffff;
@@ -1045,14 +1046,57 @@ main {
   justify-content: center;
   gap: 1.2vw;
 }
-.feature-box h2{
-font-size: 1.7vw;
-font-weight: 500;
-color: #17134a;
+.feature-box h2 {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #17134a;
 }
-.feature-box p{
-font-size: 1.2vw;
-font-weight: 400;
-color: #45426e;
+.feature-box p {
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: #45426e;
+}
+/* pricing section start */
+.pricing {
+  width: 100%;
+  height: 100%;
+  background-color: #fff9f3;
+  padding: 2vw 8%;
+  margin-bottom: 8vw;
+}
+/* pricing container start */
+.pricing-cont {
+  padding: 8vw 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vw;
+}
+.pricing-cont h1 {
+  font-size: 4.2vw;
+  font-weight: 500;
+  word-spacing: 0.5vw;
+  letter-spacing: -0.1vw;
+  color: #17134a;
+}
+.pricing-cont p {
+  font-size: 1.3vw;
+  font-weight: 300;
+  text-align: center;
+  color: #45426e;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 2vw;
+}
+.pricing-cont a {
+  background-color: #3a30ba;
+  color: #ffffff;
+  padding: 1vw 2vw;
+  font-size: 1.3vw;
+  border-radius: 0.3vw;
 
+  transition: all 0.3s ease;
+}
+.pricing-cont a:hover {
+  background-color: #17134a;
 }
